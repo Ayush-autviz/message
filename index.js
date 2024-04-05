@@ -35,6 +35,7 @@ app.post("/message",(req,res)=>{
 
 })
 
+
 app.listen(5000,()=>{
     connectToMongoDB();
     console.log("server running on port 5000")
